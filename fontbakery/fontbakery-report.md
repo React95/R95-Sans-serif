@@ -2,7 +2,7 @@
 
 Fontbakery version: 0.8.9
 
-<details><summary><b>[10] Rubik-Italic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+<details><summary><b>[11] Rubik-Italic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -15,6 +15,10 @@ Fontbakery version: 0.8.9
 
 	- And 0x01CE (LATIN SMALL LETTER A WITH CARON)
  [code: missing-codepoints]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check OFL body text is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/license/OFL_body_text">com.google.fonts/check/license/OFL_body_text</a>)</summary><div>
+
+
+* 🔥 **FAIL** The OFL.txt body text is incorrect. Please use https://github.com/googlefonts/Unified-Font-Repository/blob/main/OFL.txt as a template. You should only modify the first line. [code: incorrect-ofl-body-text]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -24,16 +28,16 @@ Fontbakery version: 0.8.9
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* five.numr
-	* uni0418
-	* Oslash
-	* uni042A
-	* uni20AE
-	* zero.numr
-	* uni0435
-	* ibreve
-	* five.dnom
-	* perthousand and 665 more.
+	* eight.tf
+	* uni049D
+	* uni0409
+	* uni044F
+	* imacron
+	* uni04F3
+	* acircumflex
+	* five.tf
+	* w
+	* q and 665 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
@@ -61,23 +65,23 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- parenleft.numerator
+	- yen.BRACKET.125
 
 	- .null
 
-	- uni20B4.BRACKET.125
-
-	- yen.BRACKET.125
-
-	- parenright.numerator
+	- parenleft.denominator
 
 	- uni030C.alt
 
 	- Euro.BRACKET.125
 
-	- parenleft.denominator 
+	- parenright.denominator
 
-	- And parenright.denominator
+	- parenright.numerator
+
+	- parenleft.numerator 
+
+	- And uni20B4.BRACKET.125
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -115,7 +119,7 @@ The following glyphs do not have the recommended number of contours:
 * ⚠ **WARN** The following glyphs have jaggy segments:
 
 	* uni0495 (U+0495): L<<202.0,440.0>--<163.0,254.0>>/L<<163.0,254.0>--<167.0,273.0>> = 0.04658192429955475 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[11] Rubik-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[12] Rubik-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -128,6 +132,10 @@ The following glyphs do not have the recommended number of contours:
 
 	- And 0x01CE (LATIN SMALL LETTER A WITH CARON)
  [code: missing-codepoints]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check OFL body text is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/license/OFL_body_text">com.google.fonts/check/license/OFL_body_text</a>)</summary><div>
+
+
+* 🔥 **FAIL** The OFL.txt body text is incorrect. Please use https://github.com/googlefonts/Unified-Font-Repository/blob/main/OFL.txt as a template. You should only modify the first line. [code: incorrect-ofl-body-text]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -137,16 +145,16 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni20AE
-	* uni0496
-	* uni04A3
-	* uni049A
-	* uni04F6
-	* Hbar
-	* zero.zero
+	* uni05EA
 	* yen
-	* uni05E0
-	* uni04B6 and 36 more.
+	* uni04E8
+	* Euro
+	* uni04CC
+	* uni0492
+	* uni04A2
+	* uni05E2
+	* hbar
+	* uni04F6 and 36 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
@@ -174,23 +182,23 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- parenleft.numerator
+	- yen.BRACKET.125
 
 	- .null
 
-	- uni20B4.BRACKET.125
-
-	- yen.BRACKET.125
-
-	- parenright.numerator
+	- parenleft.denominator
 
 	- uni030C.alt
 
 	- Euro.BRACKET.125
 
-	- parenleft.denominator 
+	- parenright.denominator
 
-	- And parenright.denominator
+	- parenright.numerator
+
+	- parenleft.numerator 
+
+	- And uni20B4.BRACKET.125
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -280,7 +288,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 	* And 5 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[10] Rubik-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[11] Rubik-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -293,6 +301,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 	- And 0x01CE (LATIN SMALL LETTER A WITH CARON)
  [code: missing-codepoints]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check OFL body text is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/license/OFL_body_text">com.google.fonts/check/license/OFL_body_text</a>)</summary><div>
+
+
+* 🔥 **FAIL** The OFL.txt body text is incorrect. Please use https://github.com/googlefonts/Unified-Font-Repository/blob/main/OFL.txt as a template. You should only modify the first line. [code: incorrect-ofl-body-text]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -302,16 +314,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni20AE
-	* uni0496
-	* uni049A
-	* uni04F6
-	* Hbar
 	* yen
-	* uni05B8
-	* Ustraitstrokecy
+	* uni04E8
+	* Euro
 	* uni04A2
-	* uni0473 and 10 more.
+	* uni04F6
+	* uni0462
+	* uni20B4.BRACKET.125
+	* uni049A
+	* uni05B8
+	* Ustraitstrokecy and 10 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
@@ -339,23 +351,23 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- parenleft.numerator
+	- yen.BRACKET.125
 
 	- .null
 
-	- uni20B4.BRACKET.125
-
-	- yen.BRACKET.125
-
-	- parenright.numerator
+	- parenleft.denominator
 
 	- uni030C.alt
 
 	- Euro.BRACKET.125
 
-	- parenleft.denominator 
+	- parenright.denominator
 
-	- And parenright.denominator
+	- parenright.numerator
+
+	- parenleft.numerator 
+
+	- And uni20B4.BRACKET.125
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -405,7 +417,7 @@ The following glyphs do not have the recommended number of contours:
 	* uni0434 (U+0434): L<<168.0,80.0>--<406.0,82.0>> 
 
 	* And uni0446 (U+0446): L<<517.0,497.0>--<516.0,80.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[11] Rubik-BlackItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[12] Rubik-BlackItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -418,6 +430,10 @@ The following glyphs do not have the recommended number of contours:
 
 	- And 0x01CE (LATIN SMALL LETTER A WITH CARON)
  [code: missing-codepoints]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check OFL body text is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/license/OFL_body_text">com.google.fonts/check/license/OFL_body_text</a>)</summary><div>
+
+
+* 🔥 **FAIL** The OFL.txt body text is incorrect. Please use https://github.com/googlefonts/Unified-Font-Repository/blob/main/OFL.txt as a template. You should only modify the first line. [code: incorrect-ofl-body-text]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -427,16 +443,16 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni20AE
-	* uni0496
-	* uni04A3
-	* uni049A
-	* uni046B
-	* uni04F6
-	* Hbar
-	* uni04EE
-	* zero.zero
-	* yen and 59 more.
+	* uni049D
+	* uni04F3
+	* uni05EA
+	* yen
+	* uni04E8
+	* Euro
+	* uni043C
+	* uni04CC
+	* uni0492
+	* uni04EE and 59 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
@@ -464,23 +480,23 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- parenleft.numerator
+	- yen.BRACKET.125
 
 	- .null
 
-	- uni20B4.BRACKET.125
-
-	- yen.BRACKET.125
-
-	- parenright.numerator
+	- parenleft.denominator
 
 	- uni030C.alt
 
 	- Euro.BRACKET.125
 
-	- parenleft.denominator 
+	- parenright.denominator
 
-	- And parenright.denominator
+	- parenright.numerator
+
+	- parenleft.numerator 
+
+	- And uni20B4.BRACKET.125
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -550,7 +566,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 	* uni0496 (U+0496): L<<847.0,0.0>--<847.0,0.0>>/B<<847.0,0.0>-<829.0,1.0>-<822.0,10.0>> = 3.1798301198641643 
 
 	* And uni049B (U+049B): L<<356.0,0.0>--<356.0,0.0>>/B<<356.0,0.0>-<347.0,2.0>-<342.0,6.5>> = 12.528807709151492 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[11] Rubik-MediumItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[12] Rubik-MediumItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -563,6 +579,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	- And 0x01CE (LATIN SMALL LETTER A WITH CARON)
  [code: missing-codepoints]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check OFL body text is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/license/OFL_body_text">com.google.fonts/check/license/OFL_body_text</a>)</summary><div>
+
+
+* 🔥 **FAIL** The OFL.txt body text is incorrect. Please use https://github.com/googlefonts/Unified-Font-Repository/blob/main/OFL.txt as a template. You should only modify the first line. [code: incorrect-ofl-body-text]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -572,16 +592,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni20AE
-	* uni0496
-	* uni04A3
-	* uni049A
-	* uni04F6
-	* Hbar
-	* zero.zero
 	* yen
-	* uni05E0
-	* uni04B6 and 33 more.
+	* uni04E8
+	* Euro
+	* uni04CC
+	* uni0492
+	* uni04A2
+	* uni05E2
+	* hbar
+	* uni04F6
+	* uni0462 and 33 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
@@ -609,23 +629,23 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- parenleft.numerator
+	- yen.BRACKET.125
 
 	- .null
 
-	- uni20B4.BRACKET.125
-
-	- yen.BRACKET.125
-
-	- parenright.numerator
+	- parenleft.denominator
 
 	- uni030C.alt
 
 	- Euro.BRACKET.125
 
-	- parenleft.denominator 
+	- parenright.denominator
 
-	- And parenright.denominator
+	- parenright.numerator
+
+	- parenleft.numerator 
+
+	- And uni20B4.BRACKET.125
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -693,7 +713,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 	* uni0494 (U+0494): L<<199.0,210.0>--<199.0,211.0>>/L<<199.0,211.0>--<160.0,24.0>> = 11.780523776915402 
 
 	* And uni04A1 (U+04A1): L<<138.0,24.0>--<222.0,415.0>>/L<<222.0,415.0>--<222.0,414.0>> = 12.12477582008083 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[10] Rubik-ExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[11] Rubik-ExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -706,6 +726,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	- And 0x01CE (LATIN SMALL LETTER A WITH CARON)
  [code: missing-codepoints]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check OFL body text is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/license/OFL_body_text">com.google.fonts/check/license/OFL_body_text</a>)</summary><div>
+
+
+* 🔥 **FAIL** The OFL.txt body text is incorrect. Please use https://github.com/googlefonts/Unified-Font-Repository/blob/main/OFL.txt as a template. You should only modify the first line. [code: incorrect-ofl-body-text]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -715,16 +739,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni20AE
-	* uni0496
-	* uni04A3
-	* uni049A
-	* uni04F6
-	* Hbar
-	* uni04EE
-	* zero.zero
+	* uni04F3
+	* uni05EA
 	* yen
-	* uni05E0 and 51 more.
+	* uni04E8
+	* Euro
+	* uni04CC
+	* uni0492
+	* uni04EE
+	* uni04A2
+	* uni05E2 and 51 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
@@ -752,23 +776,23 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- parenleft.numerator
+	- yen.BRACKET.125
 
 	- .null
 
-	- uni20B4.BRACKET.125
-
-	- yen.BRACKET.125
-
-	- parenright.numerator
+	- parenleft.denominator
 
 	- uni030C.alt
 
 	- Euro.BRACKET.125
 
-	- parenleft.denominator 
+	- parenright.denominator
 
-	- And parenright.denominator
+	- parenright.numerator
+
+	- parenleft.numerator 
+
+	- And uni20B4.BRACKET.125
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -852,7 +876,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 	* And 3 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[11] Rubik-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[12] Rubik-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -865,6 +889,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 	- And 0x01CE (LATIN SMALL LETTER A WITH CARON)
  [code: missing-codepoints]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check OFL body text is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/license/OFL_body_text">com.google.fonts/check/license/OFL_body_text</a>)</summary><div>
+
+
+* 🔥 **FAIL** The OFL.txt body text is incorrect. Please use https://github.com/googlefonts/Unified-Font-Repository/blob/main/OFL.txt as a template. You should only modify the first line. [code: incorrect-ofl-body-text]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -874,16 +902,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni20AE
-	* uni0496
-	* uni04A3
-	* uni049A
-	* uni04F6
-	* Hbar
-	* zero.zero
 	* yen
-	* uni05E0
-	* uni04B6 and 30 more.
+	* uni04E8
+	* Euro
+	* uni04CC
+	* uni0492
+	* uni04A2
+	* uni05E2
+	* hbar
+	* uni04F6
+	* uni0462 and 30 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
@@ -911,23 +939,23 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- parenleft.numerator
+	- yen.BRACKET.125
 
 	- .null
 
-	- uni20B4.BRACKET.125
-
-	- yen.BRACKET.125
-
-	- parenright.numerator
+	- parenleft.denominator
 
 	- uni030C.alt
 
 	- Euro.BRACKET.125
 
-	- parenleft.denominator 
+	- parenright.denominator
 
-	- And parenright.denominator
+	- parenright.numerator
+
+	- parenleft.numerator 
+
+	- And uni20B4.BRACKET.125
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -1017,7 +1045,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 	* And 4 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[11] Rubik-Black.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[12] Rubik-Black.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -1030,6 +1058,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 	- And 0x01CE (LATIN SMALL LETTER A WITH CARON)
  [code: missing-codepoints]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check OFL body text is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/license/OFL_body_text">com.google.fonts/check/license/OFL_body_text</a>)</summary><div>
+
+
+* 🔥 **FAIL** The OFL.txt body text is incorrect. Please use https://github.com/googlefonts/Unified-Font-Repository/blob/main/OFL.txt as a template. You should only modify the first line. [code: incorrect-ofl-body-text]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -1039,16 +1071,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni20AE
-	* uni0496
-	* uni04A3
-	* uni049A
-	* uni04F6
-	* Hbar
-	* uni04EE
-	* zero.zero
+	* uni04F3
+	* uni05EA
 	* yen
-	* uni05E0 and 51 more.
+	* uni04E8
+	* Euro
+	* uni04CC
+	* uni0492
+	* uni04EE
+	* uni04A2
+	* uni05E2 and 51 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
@@ -1076,23 +1108,23 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- parenleft.numerator
+	- yen.BRACKET.125
 
 	- .null
 
-	- uni20B4.BRACKET.125
-
-	- yen.BRACKET.125
-
-	- parenright.numerator
+	- parenleft.denominator
 
 	- uni030C.alt
 
 	- Euro.BRACKET.125
 
-	- parenleft.denominator 
+	- parenright.denominator
 
-	- And parenright.denominator
+	- parenright.numerator
+
+	- parenleft.numerator 
+
+	- And uni20B4.BRACKET.125
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -1186,7 +1218,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 	* uni05E3 (U+05E3): L<<548.0,308.0>--<549.0,-97.0>> 
 
 	* And uniFB43 (U+FB43): L<<548.0,308.0>--<549.0,-97.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[11] Rubik-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[12] Rubik-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -1199,6 +1231,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	- And 0x01CE (LATIN SMALL LETTER A WITH CARON)
  [code: missing-codepoints]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check OFL body text is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/license/OFL_body_text">com.google.fonts/check/license/OFL_body_text</a>)</summary><div>
+
+
+* 🔥 **FAIL** The OFL.txt body text is incorrect. Please use https://github.com/googlefonts/Unified-Font-Repository/blob/main/OFL.txt as a template. You should only modify the first line. [code: incorrect-ofl-body-text]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -1208,11 +1244,11 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni20AE
-	* Hbar
 	* yen
+	* Euro
 	* uni05B8
-	* uni20B4 and Euro
+	* uni20B4
+	* uni20AE and Hbar
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
@@ -1238,23 +1274,23 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- parenleft.numerator
+	- yen.BRACKET.125
 
 	- .null
 
-	- uni20B4.BRACKET.125
-
-	- yen.BRACKET.125
-
-	- parenright.numerator
+	- parenleft.denominator
 
 	- uni030C.alt
 
 	- Euro.BRACKET.125
 
-	- parenleft.denominator 
+	- parenright.denominator
 
-	- And parenright.denominator
+	- parenright.numerator
+
+	- parenleft.numerator 
+
+	- And uni20B4.BRACKET.125
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -1336,7 +1372,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 	* uni0434 (U+0434): L<<133.0,58.0>--<409.0,60.0>> 
 
 	* And uni0446 (U+0446): L<<495.0,498.0>--<494.0,58.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[11] Rubik-SemiBoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[12] Rubik-SemiBoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -1349,6 +1385,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	- And 0x01CE (LATIN SMALL LETTER A WITH CARON)
  [code: missing-codepoints]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check OFL body text is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/license/OFL_body_text">com.google.fonts/check/license/OFL_body_text</a>)</summary><div>
+
+
+* 🔥 **FAIL** The OFL.txt body text is incorrect. Please use https://github.com/googlefonts/Unified-Font-Repository/blob/main/OFL.txt as a template. You should only modify the first line. [code: incorrect-ofl-body-text]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -1358,16 +1398,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni20AE
-	* uni0496
-	* uni04A3
-	* uni049A
-	* uni04F6
-	* Hbar
-	* zero.zero
+	* uni05EA
 	* yen
-	* uni05E0
-	* uni04B6 and 41 more.
+	* uni04E8
+	* Euro
+	* uni04CC
+	* uni0492
+	* uni04A2
+	* uni05E2
+	* hbar
+	* uni04F6 and 41 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
@@ -1395,23 +1435,23 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- parenleft.numerator
+	- yen.BRACKET.125
 
 	- .null
 
-	- uni20B4.BRACKET.125
-
-	- yen.BRACKET.125
-
-	- parenright.numerator
+	- parenleft.denominator
 
 	- uni030C.alt
 
 	- Euro.BRACKET.125
 
-	- parenleft.denominator 
+	- parenright.denominator
 
-	- And parenright.denominator
+	- parenright.numerator
+
+	- parenleft.numerator 
+
+	- And uni20B4.BRACKET.125
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -1485,7 +1525,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 	* uni0494 (U+0494): B<<242.0,255.0>-<220.0,236.0>-<213.0,199.0>>/L<<213.0,199.0>--<213.0,201.0>> = 10.713123022791033 
 
 	* And uni0494 (U+0494): L<<213.0,199.0>--<213.0,201.0>>/L<<213.0,201.0>--<175.0,25.0>> = 12.183656585987368 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[11] Rubik-BoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[12] Rubik-BoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -1498,6 +1538,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	- And 0x01CE (LATIN SMALL LETTER A WITH CARON)
  [code: missing-codepoints]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check OFL body text is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/license/OFL_body_text">com.google.fonts/check/license/OFL_body_text</a>)</summary><div>
+
+
+* 🔥 **FAIL** The OFL.txt body text is incorrect. Please use https://github.com/googlefonts/Unified-Font-Repository/blob/main/OFL.txt as a template. You should only modify the first line. [code: incorrect-ofl-body-text]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -1507,16 +1551,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni20AE
-	* uni0496
-	* uni04A3
-	* uni049A
-	* uni046B
-	* uni04F6
-	* Hbar
-	* zero.zero
+	* uni05EA
 	* yen
-	* uni05E0 and 48 more.
+	* uni04E8
+	* Euro
+	* uni04CC
+	* uni0492
+	* uni04A2
+	* uni046B
+	* uni05E2
+	* hbar and 48 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
@@ -1544,23 +1588,23 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- parenleft.numerator
+	- yen.BRACKET.125
 
 	- .null
 
-	- uni20B4.BRACKET.125
-
-	- yen.BRACKET.125
-
-	- parenright.numerator
+	- parenleft.denominator
 
 	- uni030C.alt
 
 	- Euro.BRACKET.125
 
-	- parenleft.denominator 
+	- parenright.denominator
 
-	- And parenright.denominator
+	- parenright.numerator
+
+	- parenleft.numerator 
+
+	- And uni20B4.BRACKET.125
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -1632,7 +1676,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 	* uni0494 (U+0494): B<<252.0,236.0>-<233.0,219.0>-<227.0,188.0>>/L<<227.0,188.0>--<227.0,190.0>> = 10.954062643398332 
 
 	* And uni0494 (U+0494): L<<227.0,188.0>--<227.0,190.0>>/L<<227.0,190.0>--<192.0,25.0>> = 11.976132444203333 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[11] Rubik-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[12] Rubik-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -1645,6 +1689,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	- And 0x01CE (LATIN SMALL LETTER A WITH CARON)
  [code: missing-codepoints]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check OFL body text is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/license/OFL_body_text">com.google.fonts/check/license/OFL_body_text</a>)</summary><div>
+
+
+* 🔥 **FAIL** The OFL.txt body text is incorrect. Please use https://github.com/googlefonts/Unified-Font-Repository/blob/main/OFL.txt as a template. You should only modify the first line. [code: incorrect-ofl-body-text]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -1654,16 +1702,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni20AE
-	* uni0496
-	* uni04A3
-	* uni049A
-	* uni04F6
-	* Hbar
-	* zero.zero
+	* uni05EA
 	* yen
-	* uni05E0
-	* uni04B6 and 43 more.
+	* uni04E8
+	* Euro
+	* uni04CC
+	* uni0492
+	* uni04A2
+	* uni05E2
+	* hbar
+	* uni04F6 and 43 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
@@ -1691,23 +1739,23 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- parenleft.numerator
+	- yen.BRACKET.125
 
 	- .null
 
-	- uni20B4.BRACKET.125
-
-	- yen.BRACKET.125
-
-	- parenright.numerator
+	- parenleft.denominator
 
 	- uni030C.alt
 
 	- Euro.BRACKET.125
 
-	- parenleft.denominator 
+	- parenright.denominator
 
-	- And parenright.denominator
+	- parenright.numerator
+
+	- parenleft.numerator 
+
+	- And uni20B4.BRACKET.125
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -1803,7 +1851,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 	* And 3 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[10] Rubik-ExtraBoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[11] Rubik-ExtraBoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -1816,6 +1864,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 	- And 0x01CE (LATIN SMALL LETTER A WITH CARON)
  [code: missing-codepoints]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check OFL body text is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/license/OFL_body_text">com.google.fonts/check/license/OFL_body_text</a>)</summary><div>
+
+
+* 🔥 **FAIL** The OFL.txt body text is incorrect. Please use https://github.com/googlefonts/Unified-Font-Repository/blob/main/OFL.txt as a template. You should only modify the first line. [code: incorrect-ofl-body-text]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -1825,16 +1877,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni20AE
-	* uni0496
-	* uni04A3
-	* uni049A
-	* uni046B
-	* uni04F6
-	* Hbar
-	* zero.zero
+	* uni049D
+	* uni04F3
+	* uni05EA
 	* yen
-	* uni05E0 and 54 more.
+	* uni04E8
+	* Euro
+	* uni043C
+	* uni04CC
+	* uni0492
+	* uni04A2 and 54 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
@@ -1862,23 +1914,23 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- parenleft.numerator
+	- yen.BRACKET.125
 
 	- .null
 
-	- uni20B4.BRACKET.125
-
-	- yen.BRACKET.125
-
-	- parenright.numerator
+	- parenleft.denominator
 
 	- uni030C.alt
 
 	- Euro.BRACKET.125
 
-	- parenleft.denominator 
+	- parenright.denominator
 
-	- And parenright.denominator
+	- parenright.numerator
+
+	- parenleft.numerator 
+
+	- And uni20B4.BRACKET.125
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -1938,7 +1990,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 	* uni0494 (U+0494): B<<284.5,215.0>-<258.0,203.0>-<250.0,168.0>>/L<<250.0,168.0>--<251.0,171.0>> = 5.559947263309426 
 
 	* And uni0494 (U+0494): L<<250.0,168.0>--<251.0,171.0>>/L<<251.0,171.0>--<220.0,26.0>> = 6.367179864268598 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[11] Rubik-LightItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[12] Rubik-LightItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -1951,6 +2003,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	- And 0x01CE (LATIN SMALL LETTER A WITH CARON)
  [code: missing-codepoints]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check OFL body text is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/license/OFL_body_text">com.google.fonts/check/license/OFL_body_text</a>)</summary><div>
+
+
+* 🔥 **FAIL** The OFL.txt body text is incorrect. Please use https://github.com/googlefonts/Unified-Font-Repository/blob/main/OFL.txt as a template. You should only modify the first line. [code: incorrect-ofl-body-text]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -1960,11 +2016,11 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni20AE
-	* Hbar
 	* yen
+	* Euro
 	* uni05B8
-	* uni20B4 and Euro
+	* uni20B4
+	* uni20AE and Hbar
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
@@ -1990,23 +2046,23 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- parenleft.numerator
+	- yen.BRACKET.125
 
 	- .null
 
-	- uni20B4.BRACKET.125
-
-	- yen.BRACKET.125
-
-	- parenright.numerator
+	- parenleft.denominator
 
 	- uni030C.alt
 
 	- Euro.BRACKET.125
 
-	- parenleft.denominator 
+	- parenright.denominator
 
-	- And parenright.denominator
+	- parenright.numerator
+
+	- parenleft.numerator 
+
+	- And uni20B4.BRACKET.125
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -2075,8 +2131,8 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 14 | 136 | 1563 | 99 | 1283 | 0 |
-| 0% | 0% | 4% | 51% | 3% | 41% | 0% |
+| 0 | 28 | 136 | 1563 | 99 | 1269 | 0 |
+| 0% | 1% | 4% | 51% | 3% | 41% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**

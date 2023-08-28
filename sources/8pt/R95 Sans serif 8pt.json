@@ -51,13 +51,13 @@
 	"glyph-sep-x": 0,
 	"glyph-sep-y": 0,
 	"glyph-base-x": 0,
-	"glyph-baseline": 13,
+	"glyph-baseline": 6,
 	"glyph-spacing": 0,
 	"font-is-mono": false,
-	"font-em-square": 1280,
+	"font-em-square": 1664,
 	"font-line-gap": 0,
-	"font-ascend": 1280,
-	"font-descend": -256,
+	"font-ascend": 768,
+	"font-descend": -896,
 	"font-px-size": 128,
 	"font-name": "R95 Sans serif 8pt",
 	"font-author": "Gabriel Daltoso",
@@ -68,6 +68,6 @@
 	"font-license-url": "https://github.com/React95/R95-Sans-serif",
 	"font-sample-text": "Hello from R95 Sans Serif!",
 	"font-preview-text": [
-		"çãoEu consegui!"
+		"    ãoEu consegui!"
 	]
 }

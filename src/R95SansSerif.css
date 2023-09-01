@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'R95 Sans Serif 8pt';
+  font-style: normal;
+  font-display: swap;
+  font-weight: normal;
+  src:
+    url("../sources/8pt/R95 Sans serif 8pt.ttf");
+}
+
+@font-face {
+  font-family: 'R95 Sans Serif 10pt';
+  font-style: normal;
+  font-display: swap;
+  font-weight: normal;
+  src:
+    url("../sources/10pt/R95 Sans serif 10pt.ttf");
+}
+
+@font-face {
+  font-family: 'R95 Sans Serif 12pt';
+  font-style: normal;
+  font-display: swap;
+  font-weight: normal;
+  src:
+    url("../sources/12pt/R95 Sans serif 12pt.ttf");
+}
+
+@font-face {
+  font-family: 'R95 Sans Serif 14pt';
+  font-style: normal;
+  font-display: swap;
+  font-weight: normal;
+  src:
+    url("../sources/14pt/R95 Sans serif 14pt.ttf");
+}
+
+@font-face {
+  font-family: 'R95 Sans Serif 18pt';
+  font-style: normal;
+  font-display: swap;
+  font-weight: normal;
+  src:
+    url("../sources/18pt/R95 Sans serif 18pt.ttf");
+}
+
+@font-face {
+  font-family: 'R95 Sans Serif 24pt';
+  font-style: normal;
+  font-display: swap;
+  font-weight: normal;
+  src:
+    url("../sources/24pt/R95 Sans serif 24pt.ttf");
+}

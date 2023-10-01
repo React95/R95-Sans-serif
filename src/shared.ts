@@ -6,3 +6,13 @@ export const families = [
   'R95 Sans Serif 18pt',
   'R95 Sans Serif 24pt',
 ];
+
+export const basic =
+  'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!"#$%&\'()*+,-./:;<=>?@[]^_`{|}~'.split(
+    '',
+  );
+
+export const supplement =
+  ' ¡¢£¤¥¦§¨©ª«¬®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿ'.split(
+    '',
+  );

@@ -1,5 +1,5 @@
 import { AllFontsModal } from './AllFontsModal';
-import { BasicLatin } from './BasicLatin';
+import { BasicLatin, SuplementLatin } from './Latin';
 import { HelloModal } from './HelloModal';
 import { TaskBar } from '@react95/core';
 
@@ -8,6 +8,7 @@ const App = () => {
     <>
       <HelloModal />
       <AllFontsModal />
+      <SuplementLatin />
       <BasicLatin />
 
       <TaskBar />

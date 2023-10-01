@@ -1,24 +1,20 @@
-import { ReactNode, FC } from 'react';
+import { ReactNode, FC, ComponentProps } from 'react';
 import ChangeFontModal, { RenderContentProps } from './ChangeFontModal';
 import { Frame } from '@react95/core';
 
-const characters =
-  'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!"#$%&\'()*+,-./:;<=>?@[]^_`{|}~'.split(
-    '',
-  );
-
 const chunkSize = 8;
 
-const Rows: FC<RenderContentProps> = ({
+const Rows: FC<RenderContentProps & { charset: string[] }> = ({
   fontSize,
   bold,
   fontFamily,
   italic,
+  charset,
 }) => {
   const allRows: ReactNode[] = [];
 
-  for (let i = 0; i < characters.length; i += chunkSize) {
-    const row = characters.slice(i, i + chunkSize);
+  for (let i = 0; i < charset.length; i += chunkSize) {
+    const row = charset.slice(i, i + chunkSize);
 
     allRows.push(
       <tr key={`row-${i}`}>
@@ -45,14 +41,18 @@ const Rows: FC<RenderContentProps> = ({
   return allRows;
 };
 
-export const BasicLatin = () => {
+export const TableModal = ({
+  charset,
+  title,
+  position,
+}: { charset: string[] } & Pick<
+  ComponentProps<typeof ChangeFontModal>,
+  'title' | 'position'
+>) => {
   return (
     <ChangeFontModal
-      position={{
-        x: 360,
-        y: 180,
-      }}
-      title="Basic Latin"
+      position={position}
+      title={title}
       fontSize={30}
       renderContent={({ fontSize, italic, bold, fontFamily }) => {
         return (
@@ -63,6 +63,7 @@ export const BasicLatin = () => {
                 italic={italic}
                 bold={bold}
                 fontFamily={fontFamily}
+                charset={charset}
               />
             </tbody>
           </table>

@@ -1,9 +1,14 @@
 import { Frame } from '@react95/core';
 import ChangeFontModal from './ChangeFontModal';
 
-const HelloModal = () => {
+export const HelloModal = () => {
   return (
     <ChangeFontModal
+      position={{
+        x: 10,
+        y: -30,
+      }}
+      title="Hello world"
       renderContent={({ bold, fontFamily, fontSize, italic }) => {
         return (
           <Frame
@@ -23,5 +28,3 @@ const HelloModal = () => {
     />
   );
 };
-
-export default HelloModal;

@@ -6,22 +6,31 @@ import {
   Input,
   Checkbox,
 } from '@react95/core';
-import { ReactNode, useState } from 'react';
+import { ComponentProps, ReactNode, useState } from 'react';
 import { families } from './shared';
+
+export type RenderContentProps = {
+  italic: boolean;
+  bold: boolean;
+  fontFamily: string;
+  fontSize: number;
+};
 
 const ChangeFontModal = ({
   renderContent,
+  title,
+  fontSize: size = 54,
+  bold: weight = false,
+  italic: style = false,
+  position,
 }: {
-  renderContent: (props: {
-    italic: boolean;
-    bold: boolean;
-    fontFamily: string;
-    fontSize: number;
-  }) => ReactNode;
-}) => {
-  const [fontSize, setFontSize] = useState(54);
-  const [italic, setItalic] = useState(false);
-  const [bold, setBold] = useState(false);
+  renderContent: (props: RenderContentProps) => ReactNode;
+  title: string;
+  position: ComponentProps<typeof Modal>['defaultPosition'];
+} & Partial<Omit<RenderContentProps, 'fontFamily'>>) => {
+  const [fontSize, setFontSize] = useState(size);
+  const [bold, setBold] = useState(weight);
+  const [italic, setItalic] = useState(style);
   const [fontFamily, setFontFamily] = useState<string>(families[0]);
 
   return (
@@ -29,11 +38,8 @@ const ChangeFontModal = ({
       closeModal={() => {
         console.log('close!');
       }}
-      title="Change me"
-      defaultPosition={{
-        x: 20,
-        y: 0,
-      }}
+      title={title}
+      defaultPosition={position}
     >
       <Fieldset legend="Config">
         <Frame boxShadow="none" display="flex" gap={8}>

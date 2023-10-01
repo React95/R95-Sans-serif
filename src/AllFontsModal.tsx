@@ -1,16 +1,16 @@
 import { Frame, Modal } from '@react95/core';
 import { families } from './shared';
 
-function AllFontsModal() {
+export const AllFontsModal = () => {
   return (
     <Modal
       closeModal={() => {
         console.log('close!');
       }}
-      title="All at once"
+      title="All at once - 8, 10, 12, 14, 18, and 24pt"
       defaultPosition={{
-        x: 20,
-        y: 240,
+        x: 10,
+        y: 180,
       }}
     >
       {families.map((family) => {
@@ -30,6 +30,4 @@ function AllFontsModal() {
       })}
     </Modal>
   );
-}
-
-export default AllFontsModal;
+};

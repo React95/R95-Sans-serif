@@ -14,6 +14,9 @@ dependencies:
   '@types/xstyled__styled-components':
     specifier: ^1.19.4
     version: 1.19.4
+  '@xstyled/styled-components':
+    specifier: ^3.8.0
+    version: 3.8.0(styled-components@5.3.11)
   eslint-plugin-react:
     specifier: ^7.33.2
     version: 7.33.2(eslint@8.48.0)

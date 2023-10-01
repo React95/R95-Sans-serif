@@ -1,5 +1,5 @@
-import { Modal } from '@react95/core';
-import { families, VariableFrame } from './shared';
+import { Frame, Modal } from '@react95/core';
+import { families } from './shared';
 
 function AllFontsModal() {
   return (
@@ -15,8 +15,8 @@ function AllFontsModal() {
     >
       {families.map((family) => {
         return (
-          <VariableFrame
-            family={family}
+          <Frame
+            fontFamily={`'${family}'`}
             boxShadow="in"
             bg="white"
             p={12}
@@ -25,7 +25,7 @@ function AllFontsModal() {
             key={family}
           >
             {family}
-          </VariableFrame>
+          </Frame>
         );
       })}
     </Modal>

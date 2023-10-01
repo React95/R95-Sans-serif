@@ -1,9 +1,18 @@
-import { Frame, Modal, Fieldset, Dropdown, Input } from '@react95/core';
+import {
+  Frame,
+  Modal,
+  Fieldset,
+  Dropdown,
+  Input,
+  Checkbox,
+} from '@react95/core';
 import { useState } from 'react';
-import { families, VariableFrame } from './shared';
+import { families } from './shared';
 
 function ChangeFontModal() {
   const [fontSize, setFontSize] = useState(54);
+  const [italic, setItalic] = useState(false);
+  const [bold, setBold] = useState(false);
   const [fontFamily, setFontFamily] = useState<string>(families[0]);
 
   return (
@@ -35,20 +44,27 @@ function ChangeFontModal() {
             }}
             defaultValue={fontSize}
           />
+          <Checkbox checked={italic} onChange={() => setItalic(!italic)}>
+            Italic
+          </Checkbox>
+          <Checkbox checked={bold} onChange={() => setBold(!bold)}>
+            Bold
+          </Checkbox>
         </Frame>
       </Fieldset>
 
-      <VariableFrame
-        family={fontFamily}
+      <Frame
         boxShadow="in"
         bg="white"
         p={12}
-        fontFamily={fontFamily}
+        fontFamily={`'${fontFamily}'`}
         fontSize={fontSize}
+        fontStyle={italic ? 'italic' : 'normal'}
+        fontWeight={bold ? 'bold' : 'normal'}
         mt={20}
       >
         Hello, from wherever you are
-      </VariableFrame>
+      </Frame>
     </Modal>
   );
 }

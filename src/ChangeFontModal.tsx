@@ -6,10 +6,19 @@ import {
   Input,
   Checkbox,
 } from '@react95/core';
-import { useState } from 'react';
+import { ReactNode, useState } from 'react';
 import { families } from './shared';
 
-function ChangeFontModal() {
+const ChangeFontModal = ({
+  renderContent,
+}: {
+  renderContent: (props: {
+    italic: boolean;
+    bold: boolean;
+    fontFamily: string;
+    fontSize: number;
+  }) => ReactNode;
+}) => {
   const [fontSize, setFontSize] = useState(54);
   const [italic, setItalic] = useState(false);
   const [bold, setBold] = useState(false);
@@ -53,20 +62,9 @@ function ChangeFontModal() {
         </Frame>
       </Fieldset>
 
-      <Frame
-        boxShadow="in"
-        bg="white"
-        p={12}
-        fontFamily={`'${fontFamily}'`}
-        fontSize={fontSize}
-        fontStyle={italic ? 'italic' : 'normal'}
-        fontWeight={bold ? 'bold' : 'normal'}
-        mt={20}
-      >
-        Hello, from wherever you are
-      </Frame>
+      {renderContent({ italic, bold, fontFamily, fontSize })}
     </Modal>
   );
-}
+};
 
 export default ChangeFontModal;

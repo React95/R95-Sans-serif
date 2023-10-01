@@ -1,10 +1,10 @@
 import AllFontsModal from './AllFontsModal';
-import ChangeFontModal from './ChangeFontModal';
+import HelloModal from './HelloModal';
 
 const App = () => {
   return (
     <>
-      <ChangeFontModal />
+      <HelloModal />
       <AllFontsModal />
     </>
   );

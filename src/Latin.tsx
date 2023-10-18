@@ -1,3 +1,4 @@
+import { NAMES } from './ModalProvider';
 import { TableModal } from './TableModal';
 import { basic, supplement } from './shared';
 
@@ -9,7 +10,7 @@ export const SuplementLatin = () => {
         y: 80,
       }}
       charset={supplement}
-      title="Supplement Latin"
+      title={NAMES.SUP_LATIN}
     />
   );
 };
@@ -18,7 +19,7 @@ export const BasicLatin = () => {
   return (
     <TableModal
       charset={basic}
-      title="Basic Latin"
+      title={NAMES.BASIC_LATIN}
       position={{
         x: 360,
         y: 180,

@@ -6,6 +6,7 @@ import App from './App.tsx';
 import './R95SansSerif.css';
 
 import './index.css';
+import { ModalProvider } from './ModalProvider.tsx';
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 (window as any).CLIPPY_CDN =
@@ -19,7 +20,9 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
   <ThemeProvider>
     <ClippyProvider agentName={agent}>
       <GlobalStyle />
-      <App />
+      <ModalProvider>
+        <App />
+      </ModalProvider>
     </ClippyProvider>
   </ThemeProvider>,
 );

@@ -1,5 +1,6 @@
 import { Frame } from '@react95/core';
 import ChangeFontModal from './ChangeFontModal';
+import { NAMES } from './ModalProvider';
 
 export const HelloModal = () => {
   return (
@@ -8,7 +9,7 @@ export const HelloModal = () => {
         x: 10,
         y: -30,
       }}
-      title="Hello world"
+      title={NAMES.HELLO_WORLD}
       renderContent={({ bold, fontFamily, fontSize, italic }) => {
         return (
           <Frame

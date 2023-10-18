@@ -11,6 +11,9 @@ dependencies:
   '@react95/core':
     specifier: ^6.1.3
     version: 6.1.3(@xstyled/styled-components@3.8.0)(react-dom@18.2.0)(react@18.2.0)(styled-components@5.3.11)(webpack@5.88.2)
+  '@react95/icons':
+    specifier: ^2.0.8
+    version: 2.0.8
   '@types/styled-components':
     specifier: ^5.1.26
     version: 5.1.26
@@ -624,7 +627,7 @@ packages:
       react-dom: '>= 16.8.0'
       styled-components: '>= 5.3.3'
     dependencies:
-      '@react95/icons': 2.0.7
+      '@react95/icons': 2.0.8
       '@xstyled/styled-components': 3.8.0(styled-components@5.3.11)
       csstype: 3.1.2
       nanoid: 3.3.6
@@ -640,8 +643,8 @@ packages:
       - webpack
     dev: false
 
-  /@react95/icons@2.0.7:
-    resolution: {integrity: sha512-TKuAfDwsFHMFkHtxOQcHkD3sH6LwS/xOdJ3yD/T64V65bOWUfo2gs/yylPFKtb+VQdeto0Q33NJ0hyreFes2tQ==}
+  /@react95/icons@2.0.8:
+    resolution: {integrity: sha512-sueWpfg5KsPhZ0AqW/64Bancmz7ygrtY5SrO/OX7vh8EXXnp8PCgMK67gVMZzpzIu6ho3v8YjeJxg5bt7b/HEQ==}
     dev: false
 
   /@styled-system/background@5.1.2:

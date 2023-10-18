@@ -12,6 +12,7 @@
   "dependencies": {
     "@react95/clippy": "^1.0.11",
     "@react95/core": "^6.1.3",
+    "@react95/icons": "^2.0.8",
     "@types/styled-components": "^5.1.26",
     "@types/xstyled__styled-components": "^1.19.4",
     "@xstyled/styled-components": "^3.8.0",

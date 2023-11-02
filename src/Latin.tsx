@@ -1,4 +1,4 @@
-import { NAMES } from './ModalProvider';
+import { NAMES } from './constants';
 import { TableModal } from './TableModal';
 import { basic, supplement } from './shared';
 
@@ -10,7 +10,8 @@ export const SuplementLatin = () => {
         y: 80,
       }}
       charset={supplement}
-      title={NAMES.SUP_LATIN}
+      title={NAMES.SUP_LATIN.title}
+      icon={NAMES.SUP_LATIN.icon}
     />
   );
 };
@@ -19,7 +20,8 @@ export const BasicLatin = () => {
   return (
     <TableModal
       charset={basic}
-      title={NAMES.BASIC_LATIN}
+      title={NAMES.BASIC_LATIN.title}
+      icon={NAMES.SUP_LATIN.icon}
       position={{
         x: 360,
         y: 180,

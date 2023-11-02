@@ -4,8 +4,8 @@ import { HelloModal } from './HelloModal';
 import { TaskBar, List } from '@react95/core';
 import { useClippy } from '@react95/clippy';
 import { useContext, useEffect } from 'react';
-import { ModalContext, NAMES } from './ModalProvider';
-import { WindowsExplorer } from '@react95/icons';
+import { NAMES } from './constants';
+import { ModalContext } from './ModalContext';
 
 const App = () => {
   const { clippy } = useClippy();
@@ -43,30 +43,17 @@ const App = () => {
       <TaskBar
         list={
           <List>
-            <List.Item
-              icon={<WindowsExplorer variant="32x32_4" />}
-              onClick={() => addModal(NAMES.HELLO_WORLD)}
-            >
-              Hello World
-            </List.Item>
-            <List.Item
-              icon={<WindowsExplorer variant="32x32_4" />}
-              onClick={() => addModal(NAMES.BASIC_LATIN)}
-            >
-              Basic Latin
-            </List.Item>
-            <List.Item
-              icon={<WindowsExplorer variant="32x32_4" />}
-              onClick={() => addModal(NAMES.SUP_LATIN)}
-            >
-              Supplement Latin
-            </List.Item>
-            <List.Item
-              icon={<WindowsExplorer variant="32x32_4" />}
-              onClick={() => addModal(NAMES.ALL_IN_ONCE)}
-            >
-              All at once
-            </List.Item>
+            {Object.entries(NAMES).map(([key, { title, iconBig }]) => {
+              return (
+                <List.Item
+                  key={key}
+                  icon={iconBig}
+                  onClick={() => addModal(title)}
+                >
+                  {title}
+                </List.Item>
+              );
+            })}
           </List>
         }
       />

@@ -8,7 +8,7 @@ import {
 } from '@react95/core';
 import { ComponentProps, ReactNode, useContext, useState } from 'react';
 import { families } from './shared';
-import { ModalContext } from './ModalProvider';
+import { ModalContext } from './ModalContext';
 
 export type RenderContentProps = {
   italic: boolean;
@@ -24,10 +24,12 @@ const ChangeFontModal = ({
   bold: weight = false,
   italic: style = false,
   position,
+  icon,
 }: {
   renderContent: (props: RenderContentProps) => ReactNode;
   title: string;
   position: ComponentProps<typeof Modal>['defaultPosition'];
+  icon: ComponentProps<typeof Modal>['icon'];
 } & Partial<Omit<RenderContentProps, 'fontFamily'>>) => {
   const [fontSize, setFontSize] = useState(size);
   const [bold, setBold] = useState(weight);
@@ -43,6 +45,7 @@ const ChangeFontModal = ({
         }}
         title={title}
         defaultPosition={position}
+        icon={icon}
       >
         <Fieldset legend="Config">
           <Frame boxShadow="none" display="flex" gap={8}>

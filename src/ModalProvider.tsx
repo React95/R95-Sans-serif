@@ -1,26 +1,13 @@
-import { FC, ReactNode, createContext, useContext, useState } from 'react';
+import { FC, ReactNode, useState } from 'react';
+import { ModalContext } from './ModalContext';
+import { NAMES } from './constants';
 
-export const ModalContext = createContext<{
-  modal: string[];
-  addModal: (title: string) => void;
-  removeModal: (title: string) => void;
-}>({
-  modal: [],
-  addModal: () => {},
-  removeModal: () => {},
-});
-
-export const NAMES = {
-  HELLO_WORLD: 'Hello World',
-  ALL_IN_ONCE: 'All at once - 8, 10, 12, 14, 18, and 24pt',
-  SUP_LATIN: 'Supplement Latin',
-  BASIC_LATIN: 'Basic Latin',
-};
+const openedModals = Object.values(NAMES).map((v) => v.title);
 
 export const ModalProvider: FC<{
   children?: ReactNode;
 }> = ({ children }) => {
-  const [modal, setModal] = useState(Object.values(NAMES));
+  const [modal, setModal] = useState(openedModals);
 
   const addModal = (title: string) => {
     if (!modal.includes(title)) setModal((m) => [...m, title]);
@@ -42,5 +29,3 @@ export const ModalProvider: FC<{
     </ModalContext.Provider>
   );
 };
-
-export const useModal = () => useContext(ModalContext);

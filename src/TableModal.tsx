@@ -45,15 +45,17 @@ export const TableModal = ({
   charset,
   title,
   position,
+  icon,
 }: { charset: string[] } & Pick<
   ComponentProps<typeof ChangeFontModal>,
-  'title' | 'position'
+  'title' | 'position' | 'icon'
 >) => {
   return (
     <ChangeFontModal
       position={position}
       title={title}
       fontSize={30}
+      icon={icon}
       renderContent={({ fontSize, italic, bold, fontFamily }) => {
         return (
           <table>

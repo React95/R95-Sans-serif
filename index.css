@@ -4,7 +4,7 @@
   font-display: swap;
   font-weight: normal;
   src:
-    url("../sources/8pt/R95 Sans serif 8pt.ttf");
+    url("./sources/8pt/R95 Sans serif 8pt.ttf");
 }
 
 @font-face {
@@ -13,7 +13,7 @@
   font-display: swap;
   font-weight: normal;
   src:
-    url("../sources/10pt/R95 Sans serif 10pt.ttf");
+    url("./sources/10pt/R95 Sans serif 10pt.ttf");
 }
 
 @font-face {
@@ -22,7 +22,7 @@
   font-display: swap;
   font-weight: normal;
   src:
-    url("../sources/12pt/R95 Sans serif 12pt.ttf");
+    url("./sources/12pt/R95 Sans serif 12pt.ttf");
 }
 
 @font-face {
@@ -31,7 +31,7 @@
   font-display: swap;
   font-weight: normal;
   src:
-    url("../sources/14pt/R95 Sans serif 14pt.ttf");
+    url("./sources/14pt/R95 Sans serif 14pt.ttf");
 }
 
 @font-face {
@@ -40,7 +40,7 @@
   font-display: swap;
   font-weight: normal;
   src:
-    url("../sources/18pt/R95 Sans serif 18pt.ttf");
+    url("./sources/18pt/R95 Sans serif 18pt.ttf");
 }
 
 @font-face {
@@ -49,5 +49,5 @@
   font-display: swap;
   font-weight: normal;
   src:
-    url("../sources/24pt/R95 Sans serif 24pt.ttf");
+    url("./sources/24pt/R95 Sans serif 24pt.ttf");
 }

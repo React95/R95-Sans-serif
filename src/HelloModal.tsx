@@ -14,6 +14,7 @@ export const HelloModal = () => {
       renderContent={({ bold, fontFamily, fontSize, italic }) => {
         return (
           <Frame
+            className="text"
             boxShadow="in"
             bg="white"
             p={12}
@@ -22,6 +23,7 @@ export const HelloModal = () => {
             fontStyle={italic ? 'italic' : 'normal'}
             fontWeight={bold ? 'bold' : 'normal'}
             mt={20}
+            as="textarea"
           >
             Hello, from R95 Sans Serif
           </Frame>

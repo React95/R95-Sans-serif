@@ -6,8 +6,8 @@ export const SuplementLatin = () => {
   return (
     <TableModal
       position={{
-        x: 160,
-        y: 80,
+        x: 360,
+        y: 180,
       }}
       charset={supplement}
       title={NAMES.SUP_LATIN.title}
@@ -23,8 +23,8 @@ export const BasicLatin = () => {
       title={NAMES.BASIC_LATIN.title}
       icon={NAMES.SUP_LATIN.icon}
       position={{
-        x: 360,
-        y: 180,
+        x: 160,
+        y: 80,
       }}
     />
   );

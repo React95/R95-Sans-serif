@@ -40,6 +40,7 @@ const ChangeFontModal = ({
   return (
     modal.includes(title) && (
       <Modal
+        className="default"
         closeModal={() => {
           removeModal(title);
         }}

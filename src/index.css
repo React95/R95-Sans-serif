@@ -5,4 +5,5 @@ html, body {
 
 * {
   box-sizing: border-box;
+  cursor: unset;
 }

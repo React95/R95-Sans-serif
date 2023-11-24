@@ -3,7 +3,7 @@ import { ClippyProvider, AGENTS } from '@react95/clippy';
 import { ThemeProvider, GlobalStyle } from '@react95/core';
 import App from './App.tsx';
 
-import './R95SansSerif.css';
+import '../index.css';
 
 import './index.css';
 import { ModalProvider } from './ModalProvider.tsx';

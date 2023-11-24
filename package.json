@@ -1,13 +1,15 @@
 {
   "name": "@react95/sans-serif",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "main": "index.css",
+  "description": "A port of the old Microsoft font used in Windows 95",
+  "version": "0.0.1",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "pnpm run build",
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "@react95/clippy": "^1.0.13",
@@ -25,11 +27,22 @@
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
+    "gh-pages": "^6.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "styled-components": "5",
     "typescript": "^5.0.2",
     "vite": "^4.4.5"
   },
+  "files": [
+    "index.css",
+    "sources/**/*.ttf"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/React95/R95-Sans-serif"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

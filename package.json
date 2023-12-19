@@ -2,7 +2,7 @@
   "name": "@react95/sans-serif",
   "main": "index.css",
   "description": "A port of the old Microsoft font used in Windows 95",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
